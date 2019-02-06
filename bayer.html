@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Bayern Munchen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/Bayer/bavariya.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/Bayer/ковач.png" alt="Captain" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Niko Kovac</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/нойер.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Manuel Neuer</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/Bayer/ульрайх.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sven Ulreich</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/Bayer/фрюхтль.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Christian Früchtl</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/Bayer/хофманн.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Ron-Thorben Hoffmann</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/Bayer/хуммельс.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Mats Hummels</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/зюле.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Niklas Süle</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/мартинес.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Javi Martinez</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/рафинья.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Rafinha</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/боатенг.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Jérôme Boateng</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/бернат.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Juan Bernat</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/киммих.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Joshua Kimmich</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/алаба.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>David Alaba</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/тьяго.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Thiago</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/Bayer/рибери.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Franck Ribéry</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/Bayer/роббен.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Arjen Robben</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/гнабри.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Serge Gnabry</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/родригес.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>James Rodríguez</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/толиссо.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Corentin Tolisso</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/горецка.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Leon Goretzka</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/саншеш.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Renato Sanches</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/коман.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Kingsley Coman</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/вагнер.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sandro Wagner</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/левандовски.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Robert Lewandowski</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Bayer/мюллер.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Thomas Müller</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Football club "Bayern" Munich - a professional German football club from the city of Munich. Founded in 1900. The most titled club in Germany and one of the most titled clubs in the world.</p>
+<p>Bayern took 3rd place in the list of the best football clubs of the 20th century, according to FIFA, 4th place - according to Kicker magazine. IFFHS also placed Bayern in 5th place in the ranking of the best European clubs of the twentieth century.</p>
+<p>Bayern is the most award-winning professional football club in Germany, it has 28 champion titles and 19 German cups, 3 wins in the European Cup and 2 wins in the Champions League. At the end of 2013, the team became the first German club to win the club world championship.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/Bayer/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>Victory in the match with a score of 2: 1 won the Bayern. The club from Munchen played with Chelsea in the UEFA Super Cup match, and also became the semifinalist of the Club World Championship, in which the German club won.
+</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/Bayer/win2.jpg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>Bundesliga 2017/2018 - The 55th season of the German Bundesliga. The championship of 18 teams began on August 18, 2017 and ended on May 12, 2018. The champion title was defended by Bayern, winning the championship for the sixth time in a row.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/Bayer/win3.jpg" alt="Турнир3" style="height:200px" width="100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>The 2013 UEFA Champions League Final - the final match of the UEFA Champions League 2012/13, the 58th season in the history of the European Champions Cup and the 21st season in the history of the UEFA Champions League. This football match took place on Saturday, May 25, 2013 at Wembley Stadium in London. The winner was Bayern Munchen, which beat Borussia Dortmund with a score 2:1.</p>
+
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

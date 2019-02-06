@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Schalke 04</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/Schalke 04/team.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/coach.jpg" alt="Captain" style="width:150px;" class="w3-circle w3-hover-opacity">
+    <h3>Domenico Tedesco</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/fahrmann.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Ralf Fährmann</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Alexander Nübel.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Alexander Nübel</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Michael Langer.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Michael Langer</h3>
+    <p>Goalkeeper</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Matija-Nastasic.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Matija Nastasic</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Salif Sané.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Salif Sané</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Benjamin Stambouli.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Benjamin Stambouli</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Hamza Mendyl.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Hamza Mendyl</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Abdul Rahman Baba.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Abdul Rahman Baba</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Sascha Riether.jpeg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sascha Riether</h3>
+    <p>Defender</p>
+  </div>
+    
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Yevhen Konoplyanka.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Yevhen Konoplyanka</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Nabil Bentaleb.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Nabil Bentaleb</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Sebastian Rudy.jpeg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sebastian Rudy</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Omar Mascarell.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Omar Mascarell</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Johannes Geis.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Johannes Geis</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Weston McKennie.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Weston McKennie</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Suat Serdar.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Suat Serdar</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Daniel Caligiuri.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Daniel Caligiuri</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Alessandro Schöpf.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Alessandro Schöpf</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Breel Embolo.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Breel Embolo</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Mark Uth.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Mark Uth</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Steven Skrzybski.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Steven Skrzybski</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Franco Di Santo.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Franco Di Santo</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/Schalke 04/Guido Burgstaller.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Guido Burgstaller</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Schalke 04 is a German football club from Gelsenkirchen, North Rhine-Westphalia. One of the most popular football clubs in Germany. In September 2018, the number of club members crossed the mark of 156,000 people, and according to this indicator, Schalke 04 ranks second in Germany. The club achieved the best result in European competitions in 1997, winning the UEFA Cup.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/Schalke 04/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>UEFA Cup 1996/97 - 26th UEFA Cup, the winner was the “Schalke 04 ″, who beat on penalties in the finals of the“ Internationale ”.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/Schalke 04/win2.jpg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>German Soccer Cup 2010–2011 - 68th German Soccer Cup. The tournament began on August 13, 2010, the final was played on May 21, 2011 at the Olympic Stadium in Berlin. The title was defended by a 15-time winner of the cup - Bavaria. In the final match, Schalke 04 won the second Bundesliga club Duisburg with a score of 5:0 and won the German Cup for the fifth time.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/Schalke 04/win3.jpg" alt="Турнир3" style="height:200px" width="100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>German Super Cup 2011 - the 12th official Super Bowl of Germany, which has been held annually since 2010. In the German Super Cup there are champions of the Bundesliga and winners of the German Cup of the previous season. The match took place on July 23, 2011 at the Veltins Arena stadium in Gelsenkirchen. In it there were irreconcilable rivals, the champion of the Bundesliga Dortmund “Borussia” and the winner of the German Cup Gelsenkirchen “Schalke 04 ″. The main time ended with a score of 0:0, and in the penalty shootout, Schalke 04 won with a score of 4:3.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

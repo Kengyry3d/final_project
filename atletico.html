@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Atlético Madrid</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/atleticomadrid/team.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/coach.jpg" alt="Captain" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Diego Pablo Simeone</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/ADAN.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Antonio Adán</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/OBLAK.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Jan Oblak</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/GODIN.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Diego Godín</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/FILIPE.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Filipe Luís</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/ARIAS.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Santiago Arias</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/SAVIC.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Stefan Savic</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/JUANFRAN.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Juanfran</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/LUCAS.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Lucas Hernández</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/GIMENEZ.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>José Giménez</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/THOMAS.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Thomas</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/KOKE.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Koke</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/SAUL.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Saúl Ñíguez</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/LEMAR.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Thomas Lemar</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/RODRIGO.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Rodrigo</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/GELSON.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Gelson Martins</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/VITOLO.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Vitolo</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/GRIEZMANN.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Antoine Griezmann</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/KALINIC.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Nikola Kalinic</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/CORREA.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Ángel Correa</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/atleticomadrid/COSTA.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Diego Costa</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Athletico Madrid is a Spanish football club from Madrid, in the autonomous community of the same name. The club was founded on April 26, 1903, it receives guests at the Vanda Metropolitano stadium. Atletico is the ten-time champion of Spain, the ten-time winner of the Spanish Cup, as well as the three-time winner of the UEFA Europa League seasons 2009/10, 2011/12 and 2017/18.
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/atleticomadrid/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>UEFA Europa League 2017/18 is the 47th draw of the annual club tournament in European football and the 9th called the Europa League. The final match took place on May 16, 2018 at the Park Olympic Lyonnais Stadium in Lyon. The winner was the club "Atletico Madrid" - this is his third trophy of this European Cup.
+</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/atleticomadrid/win2.jpg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>UEFA Super Cup 2018 - a football match that took place on August 15, 2018 and became the 43rd draw of the UEFA Super Cup, in which the winner of the Champions League and the European League of the previous season met. The match was held at the stadium “A. Le Coq Arena "in Tallinn. The winner was Atletico Madrid, which beat Real Madrid 4-2.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/atleticomadrid/win3.jpg" alt="Турнир3" style="height:200px" width="100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>The 83rd Spanish Football Championship takes place in 2013 and 2014. The title was defended by Barcelona, which won the Spanish title for the 22nd time for the last season. Atletico Madrid became the champion for the first time in 18 years.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

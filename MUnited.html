@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Manchester United</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/MU/team.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/MU/coach.jpg" alt="Captain" style="width:150px;height: 190.9px;" class="w3-circle w3-hover-opacity">
+    <h3>Ole Gunnar Solskjaer</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/gea.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>David de Gea</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/MU/romero.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sergio Romero</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/MU/grant.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Lee Grant</h3>
+    <p>Goalkeeper</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/lindelof.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Victor Lindelöf</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/baily.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Eric Bailly</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/jones.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Phil Jones</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/rojo.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Marcos Rojo</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/smalling.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Chris Smalling</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/young.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Ashley Young</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+        <img src="Team/MU/shaw.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+        <h3>Luke Shaw</h3>
+        <p>Defender</p>
+  </div>
+
+    <div class="w3-quarter">
+        <img src="Team/MU/valencis.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+        <h3>Antonio Valencia</h3>
+        <p>Defender</p>
+    </div>
+    
+  <div class="w3-quarter">
+    <img src="Team/MU/darmian.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Matteo Darmian</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/pogba.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Paul Pogba</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/MU/mata.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Juan Mata</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/MU/lingard.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Jesse Lingard</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/herrera.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Ander Herrera</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/fellaini.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Marouane Fellaini</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/matic.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Nemanja Matic</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/fred.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Fred</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/mc.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Scott McTominay</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/sanchez.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Alexis Sánchez</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/lukaku.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Romelu Lukaku</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/martial.png" alt="Player" style="width:150px;height: 190.9px;" class="w3-circle w3-hover-opacity">
+    <h3>Anthony Martial</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/MU/rashford.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Marcus Rashford</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Manchester United Football Club, commonly known as Man United or simply United, is a professional football club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of English football. Nicknamed "the Red Devils", the club was founded as Newton Heath LYR Football Club in 1878, changed its name to Manchester United in 1902 and moved to its current stadium, Old Trafford, in 1910.</p> 
+<p>Manchester United have won more trophies than any other club in English football with a record 20 League titles, 12 FA Cups, 5 League Cups and a record 21 FA Community Shields. United have also won three UEFA Champions Leagues, one UEFA Europa League, one UEFA Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup and one FIFA Club World Cup. In 1998–99, the club became the first in the history of English football to achieve the continental European treble. By winning the UEFA Europa League in 2016–17, they became one of five clubs to have won all three main UEFA club competitions, and the only English club to have won every competition available to them.</p>   
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/MU/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>The 2012–13 Premier League was the 21st season of the Premier League, the English professional league for association football clubs, since its establishment in 1992. The fixture schedule was released on 18 June 2012. The season began on 18 August 2012 and ended on 19 May 2013. On 22 April 2013, Manchester United won their 13th Premier League title and 20th English title overall by defeating Aston Villa 3–0 at Old Trafford.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/MU/win2.jpg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>The 2008 UEFA Champions League Final was a football match that took place on Wednesday, 21 May 2008, at the Luzhniki Stadium in Moscow, Russia, to determine the winner of the 2007–08 UEFA Champions League. It was contested by Manchester United and Chelsea, making it an all-English club final for the first time in the history of the competition. It also marked the 100th anniversary of Manchester United's first league triumph, the 50th anniversary of the Munich air disaster, and the 40th anniversary of United's first European Cup triumph in 1968. It was Manchester United's third European Cup final after 1968 and 1999, while it was Chelsea's first. Manchester United won the match 6–5 on penalties, after a 1–1 draw following extra time.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/MU/win3.JPG" alt="Турнир3" style="height:200px" width="100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>The 2017 UEFA Europa League Final was the final match of the 2016–17 UEFA Europa League, the 46th season of Europe's secondary club football tournament organised by UEFA, and the 8th season since it was renamed from the UEFA Cup to the UEFA Europa League. It was played at the Friends Arena in Solna, Sweden on 24 May 2017, between Dutch side Ajax and English side Manchester United. Manchester United won the match 2–0 to secure their first title in this competition.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

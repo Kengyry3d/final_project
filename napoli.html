@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Napoli</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/napoli/team.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/napoli/coach.jpg" alt="Captain" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Carlo Ancelotti</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/meret.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Alex Meret</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/napoli/ospina.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>David Ospina</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/napoli/karnezis.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Orestis Karnezis</h3>
+    <p>Goalkeeper</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/albiol.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Raúl Albiol</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/malcuit.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Kévin Malcuit</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/luporte.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sebastiano Luperto</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/chiriches.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Vlad Chiriches</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/rui.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Mário Rui</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/ghoulam.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Faouzi Ghoulam</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/maksimovic.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Nikola Maksimovic</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/koulibaly.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Kalidou Koulibaly</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/hysaji.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Elseid Hysaj</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/allan.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Allan</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/napoli/zielinski.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Piotr Zielinski</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/napoli/younes.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Amin Younes</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/ruiz.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Fabián Ruiz</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/diawara.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Amadou Diawara</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/hamsik.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Marek Hamsik</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/rog.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Marko Rog</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/callejon.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>José Callejón</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/verdi.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Simone Verdi</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/insigne.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Lorenzo Insigne</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/mertens.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Dries Mertens</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/milik.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Arkadiusz Milik</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/napoli/ounas.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Adam Ounas</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Napoli is an Italian football club from Naples, founded in 1926. Currently playing in Serie A. The colors of the club are azure-white. Home Stadium - "San Paolo". "Napoli" - two-time winner of the championship of Italy (1986/1987, 1989/1990), five-time winner of the Italian Cup. In the European arena, the club has one significant achievement - the victory in the UEFA Cup 1988/1989. "Napoli" is one of the strongest clubs in southern Italy and the 4th team of the country by the number of fans.</p>   
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/napoli/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>2013/14 Italian Cup - the 66th Italian Cup. In the final, Napoli won against Fiorentina and won the Italian Cup for the 5th time. 
+</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/napoli/win2.jpg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>The 2014 Supercoppa Italiana was the 27th edition of the Supercoppa Italiana, Italian football supercup, played on 22 December 2014 at the Jassim Bin Hamad Stadium in Doha, Qatar. It was held between 2013–14 Serie A champions, Juventus, and the winners of the 2013–14 Coppa Italia, Napoli. Napoli emerged as the victorious side 6–5 in a penalty shootout, following a 2–2 draw, to pick up their second trophy in the tournament.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/napoli/win3.png" alt="Турнир3" style="height:200px" width="100%">
+  <div class="w3-container">
+  <h4>Tournament</h4>
+  <p>Serie A 2017/2018 - 86th season of the Italian Football Championship. The season began on August 19, 2017 and ended on May 20, 2018.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

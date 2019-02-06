@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Tottenham Hotspur</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/tottenheam/team.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/mauricio-pochettino.png" alt="Captain" style="width:150px;" class="w3-circle w3-hover-opacity">
+    <h3>Mauricio Pochettino</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/hugo-lloris.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Hugo Lloris</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/michel-vorm.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Michel Vorm</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/kieran-trippier.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Kieran Trippier</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/danny-rose.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Danny Rose</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/toby-alderweireld.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Toby Alderweireld</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/jan-vertonghen.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Jan Vertonghen</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/davinson-sanchez.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Davinson Sánchez</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/juan-foyth.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Juan Foyth</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/serge-aurier.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Serge Aurier</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+        <img src="Team/tottenheam/ben-davies.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+        <h3>Ben Davies</h3>
+        <p>Defender</p>
+  </div>
+
+    <div class="w3-quarter">
+        <img src="Team/tottenheam/kyle-walker-peters.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+        <h3>Kyle Walker-Peters</h3>
+        <p>Defender</p>
+    </div>
+    
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/erik-lamela.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Erik Lamela</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/christian-eriksen.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Christian Eriksen</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/victor-wanyama.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Victor Wanyama</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/eric-dier.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Eric Dier</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/mousa-dembele.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Mousa Dembélé</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/dele-alli.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Dele Alli</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/lucas-moura.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Lucas Moura</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/harry-winks.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Harry Winks</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/georges-kevin-nkoudou.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Georges-Kevin N'Koudou</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/heung-min-son.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Heung-Min Son</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/harry-kane.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Harry Kane</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/tottenheam/fernando-llorente.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Fernando Llorente</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>The football club Tottenham Hotspur is an English professional football club from Tottenham, a district in the north of London, playing in the Premier League. Founded in 1882. The nickname of the club - “spurs”. Home stadium of the club - "Wembley".</p>   
+<p>Tottenham Hotspur became the first club in the XX century, making a home “double”, winning both the championship and the FA Cup in the 1960/1961 season. In 1963, the Spurs became the first British club to win the European Cup - the UEFA Cup Winners' Cup. In the 1980s, the Spurs won several trophies: twice the FA Cup, the English Super Cup, and the UEFA Cup (1983/1984). In 2008, the club won the Football League Cup, beating in the Chelsea finals 2-1 in extra time; Thus, Tottenham won the title at least once a decade for the past 60 years, as did Manchester United.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/tottenheam/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h4>Tournament</h4>
+  <p>Premier League season 2016/17 - 25th draw in the history of the Premier League, founded in 1992. The season began on August 13, 2016 and ended on May 21, 2017. The draw for the tournament calendar took place on June 15, 2016. The title was won by Chelsea. Tottenham took second place.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/tottenheam/win2.jpg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>The 1984 UEFA Cup Final is the final match of the 1983/84 UEFA Cup draw, the 13th season in UEFA Cup history. The first final match took place on May 9, 1984, at the Constant Vanden Stock Stadium in Brussels. The return match took place on May 23, 1984, at the White Hart Lane Stadium in London. The match met the Belgian "Anderlecht" and the English "Tottenham Hotspur." In the final Tottenham won the Anderlecht on penalty 4:3.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/tottenheam/win3.jpg" alt="Турнир3" style="height:200px" width="100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>The 2008 Football League Cup Final is a football match that took place on February 24, 2008. It was the first League Cup Final to be held at the new Wembley Stadium after the demolition of the old Wembley 2000. The match was the end of the 48th Football League Cup, the cup tournament, in which 92 clubs from the Premier League and Football League take part. The final was broadcast live on BBC and Sky Sports. In the final, met two Tottenham Hotspur and Chelsea clubs in London. Tottenham Hotspur defeated Chelsea 2-1 in extra time, winning his first trophy in 9 years.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

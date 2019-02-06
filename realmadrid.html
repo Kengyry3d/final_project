@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Real Madrid</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/real/real.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/real/Solari.png" alt="Captain" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Santiago Solari</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/real/Keylor.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Keylor Navas</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/real/Casilla.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Kiko Casilla</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/real/Courtois.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Thibaut Courtois</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/real/Carvajal.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Daniel Carvajal</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Vallejo.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Jesus Vallejo</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/SergioRamos.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sergio Ramos</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Varane.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Raphael Varane</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Nacho.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Nacho</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Marcelo.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Marcelo</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Odriozola.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Alvaro Odriozola</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Regui.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sergio Reguilon</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Kroos.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Toni Kroos</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/real/Modric.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Luka Modric</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/real/Bale.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Gareth Bale</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Casemiro.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Casemiro</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Lucas.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Lucas Vazquez</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/MLlorente.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Marcos Llorente</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Asensio.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Marco Asensio</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Isco.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Isco</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Ceballos.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Daniel Ceballos</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/FValverde.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Federico Valverde</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Vinicius.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Vinicius Jr</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/Benzema.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Karim Benzema</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/real/DMariano.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Mariano Diaz</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Real Madrid is a Spanish professional football club from the city of Madrid. FIFA recognized as the best football club of the 20th century. “Real Madrid” is one of three clubs that have never left the highest Spanish division, the other two are Barcelona and Athletic Bilbao. Is one of the most titled clubs in Spanish football. He has 62 national titles: a record 33 titles of La Liga champion, 19 Spanish Cups and 10 Spanish Super Cups. He holds the record for the number of victories and goals in the Champions League (13 times, the only team that won this tournament - then the European Champions Cup - 5 times in a row).
+
+According to the organization Deloitte, in the season 2016/17 Real Madrid was the second in terms of earnings among clubs with an annual income of 674.6 million euros. It is one of the most valuable clubs valued at 4.1 billion dollars.
+</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/real/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>The final of the Club World Cup 2018 is the final match of the Club World Cup 2018, which was held in the United Arab Emirates. This final was the fifteenth in the history of the World Cup World Cup. The final was drawn between the Spanish club Real Madrid, representing UEFA as the winner of the Champions League 2017/18, and the Emirates club "Al Ain" from Abu Dhabi, representing the host country as the winner League of the Arabian Gulf 2017/18. The match took place on December 22, 2018 at the Zayed Sport City Stadium in the city of Abu Dhabi. The winner was Real Madrid, which beat Al Ain with a score 4:1.
+</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/real/win2.jpeg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>The UEFA Champions League Final 2018 is the 2017/18 UEFA Champions League final match, the 63rd season of the most prestigious UEFA club football tournament, and the 26th season after the European Champions Cup was renamed the Champions League. The match took place on May 26, 2018 in Kiev, for the first time in the history of Ukraine, at the stadium Olympic NSC. The winner was Real Madrid, which beat English Liverpool with a score 3:1.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/real/win3.jpeg" alt="Турнир3" style="height:200px" width="100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>UEFA Super Cup 2017 - a football match that took place on August 8, 2017 and became the 42nd draw of the UEFA Super Cup, in which the winner of the Champions League and the European League of the previous season met. The match was held at the stadium "National Arena Philip II of Macedon" in Skopje. The winner was Real Madrid, which beat English Manchester United with a score of 2:1.</p>
+
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

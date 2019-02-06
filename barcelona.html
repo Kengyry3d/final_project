@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>FC Barcelona</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/barcelona/image.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/barcelona/вальверде.jpg" alt="Captain" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Ernesto Valverde</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/штеген.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Marc-Andre ter Stegen</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/barcelona/силлесен.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Jasper Cillessen</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/barcelona/семеду.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Nelson Semedo</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/пике.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>NGerard Pique</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/альба.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Jordi Alba</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/умтити.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Samuel Umtiti</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/вермален.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Thomas Vermaelen</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/ракитич.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Ivan Rakitic</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/barcelona/денис.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Denis Suarez</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/barcelona/малком.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Malcom</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/коутиньо.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Philippe Coutinho</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/роберто.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sergi Roberto</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/видаль.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Arturo Vidal</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/бускетс.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sergio Busquets</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/суарез.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Luis Suarez</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/месси.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Lionel Messi</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/barcelona/дембеле.jpg" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Usman Dembele</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>The Barcelona Football Club is a Catalan professional football club from the city of the same name, one of the most titled clubs in Spain and in the world. In 2009, Barcelona established a unique achievement, becoming the only European club that won all possible major tournaments during the year ( three national ones - the Spanish Championship, the Spanish Cup and the Spanish Super Cup and three international - the UEFA Champions League, the UEFA Super Cup and the Club World Championship). In 2013, Barcelona was recognized as the most expensive club in the world, founding s on the transfer fee.
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/barcelona/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>Spain Football Championship 2017/18 is the 87th draw in the history of Examples, founded in 1929. The season began on August 19, 2017 and ended on May 13, 2018. The champion for the 25th time was Barcelona.
+</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/barcelona/win2.jpg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>Spanish Cup 2017/18 - 116th season of a football tournament in Spain. The tournament is attended by 83 teams from different parts of Spain. The winner of the tournament gets the right to play in the UEFA Europa League, starting from the group round and becoming a member of the Spanish Super Cup.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/barcelona/win3.jpg" alt="Турнир3" style="height:200px" width="100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>Spanish Super Cup 2018 - the 33rd draw of the Spanish Super Cup, the annual football mini-tournament, in which there are champion examples and winner of the Spanish Cup last season. The winner of the 2017/18 Spanish Championship season and the Spanish Cup winner of the 2017/18 season Barcelona and the Spanish Cup finalist 2017/18 Sevilla met in this draw.</p>
+  <p>The match took place on August 12 at the Stade de Tangier Stadium in the city of Tangier (Morocco). For the first time in its history, it was held in a single match format. Won and won the Spanish Super Cup Barcelona.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

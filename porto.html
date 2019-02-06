@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>FC Porto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/porto/team.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/porto/coach.jpg" alt="Captain" style="width:150px;height: 224.75px;" class="w3-circle w3-hover-opacity">
+    <h3>Sérgio Conceição</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/casillas.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Iker Casillas</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/porto/vana.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Vaná Alves</h3>
+    <p>Goalkeeper</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/fabiano.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Fabiano</h3>
+    <p>Goalkeeper</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/pereira.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Maxi Pereira</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/militao.png" alt="Player" style="width:150px;height: 224.75px;" class="w3-circle w3-hover-opacity">
+    <h3>Éder Militão</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/leite.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Diogo Leite</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/chidozie.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Chidozie Awaziem</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/telles.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Alex Telles</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/Jorge.png" alt="Player" style="width:150px;height: 224.75px;" class="w3-circle w3-hover-opacity">
+    <h3>Jorge</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/mbemba.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Chancel Mbemba</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/pedro.png" alt="Player" style="width:150px;height: 224.75px;" class="w3-circle w3-hover-opacity">
+    <h3>João Pedro</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/felipe.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Felipe</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/pepe.png" alt="Player" style="width:150px;height: 224.75px;" class="w3-circle w3-hover-opacity">
+    <h3>Pepe</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/bcosta.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Bruno Costa</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/porto/torres.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Óliver Torres</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/porto/herrera.png" alt="Player" style="width:150px;height: 224.75px;" class="w3-circle w3-hover-opacity">
+    <h3>Héctor Herrera</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/dperereira.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Danilo Pereira</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/otavio.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Otávio</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/oliveira.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sérgio Oliveira</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/hernani.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Hernâni</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/brahimi.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Yacine Brahimi</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/aboubakar.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Vincent Aboubakar</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/marega.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Moussa Marega</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/corona.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Jesús Corona</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/lopez.png" alt="Player" style="width:150px;height: 224.75px;" class="w3-circle w3-hover-opacity">
+    <h3>Adrián López</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/apereira.png" alt="Player" style="width:150px;height: 224.75px;" class="w3-circle w3-hover-opacity">
+    <h3>André Pereira</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/porto/soares.png" alt="Player" style="width:150px;height: 224.75px;" class="w3-circle w3-hover-opacity">
+    <h3>Tiquinho Soares</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Football club "Porto" - Portuguese football club from the city of the same name. The club’s home stadium is “Drahau”, built in 2003 in preparation for Euro 2004.</p>
+<p>Porto, together with Benfica and Sporting Lisbon, form the Big Three in Portugal. Porto twice won the Champions League and once in the UEFA Cup and Europa League. The club was the first to repeat the Liverpool result in 1976-1977, winning the UEFA Cup first and then becoming the first in the Champions League.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/porto/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>The 2004 UEFA Champions League Final is the final match of the UEFA Champions League 2003/04, the 49th season in the history of the European Champions Cup and the 12th season in the history of the UEFA Champions League. This football match took place on May 26, 2004, at the Arena Aufschalk stadium in Gelsenkirchen. The match met the French "Monaco" and the Portuguese "Porto". In final Porty won the Monaco with a score 3:0.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/porto/win2.jpg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>The 2011 UEFA Europa League Final is the final match of the UEFA Europa League 2010/11, the 40th season in the history of the UEFA Cup and the 2nd season in the history of the UEFA Europa League. This football match took place on May 18, 2011, at the Dublin Arena stadium in Dublin. The match met the Portuguese "Porto" and "Braga". In final Porty won the Braga with a score 1:0.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/porto/win3.jpg" alt="Турнир3" style="height:166.35px" width="100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>Primaira league 2017/2018 - the 84th season of the championship of Portugal in football. It began on August 6, 2017 and ends on May 13, 2018. First in five years, they won the cup.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

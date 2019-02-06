@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Liverpool</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/liverpool/team.png" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/liverpool/coach.jpg" alt="Captain" style="width:150px;height: 190.9px;" class="w3-circle w3-hover-opacity">
+    <h3>Jürgen Klopp</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/mignolet.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Simon Mignolet</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/liverpool/alisson.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Alisson</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/liverpool/van_dijk.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Virgil van Dijk</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/lovren.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Dejan Lovren</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/gomez.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Joe Gomez</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/moreno.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Alberto Moreno</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/robertson.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Andrew Robertson</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/matip.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Joel Matip</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/arnold.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Trent Alexander-Arnold</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/wijnaldum.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Georginio Wijnaldum</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/liverpool/milner.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>James Milner</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/liverpool/henderson.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Jordan Henderson</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/lalana.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Adam Lallana</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/chamberlain.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Alex Oxlade-Chamberlain</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/fabinho.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Fabinho</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/keita.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Naby Keïta</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/firmino.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Roberto Firmino</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/salah.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Mohamed Salah</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/mane.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sadio Mané</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/sturridje.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Daniel Sturridge</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/origi.png" alt="Player" style="width:150px;height: 190.9px;" class="w3-circle w3-hover-opacity">
+    <h3>Divock Origi</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/liverpool/shaqiri.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Xherdan Shaqiri</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Liverpool Football Club is a professional football club in Liverpool, England, that competes in the Premier League, the top tier of English football. The club has won 5 European Cups, more than any other English club, 3 UEFA Cups, 3 UEFA Super Cups, 18 League titles, 7 FA Cups, a record 8 League Cups, and 15 FA Community Shields.</p> 
+<p>Founded in 1892, the club joined the Football League the following year and has played at Anfield since its formation. Liverpool established itself as a major force in English and European football in the 1970s and 1980s when Bill Shankly and Bob Paisley led the club to 11 League titles and seven European trophies. Under the management of Rafael Benítez and captained by Steven Gerrard, Liverpool became European champions for the fifth time in 2005. </p>   
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/liverpool/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>The 2004–05 UEFA Champions League was the 50th season of UEFA's premier European club football tournament, and the 13th since it was rebranded as the UEFA Champions League in 1992. The competition was won by Liverpool, who beat Milan on penalties in the final, having come back from 3–0 down at half-time. Liverpool captain Steven Gerrard was named as UEFA's Footballer of the Year for his key role in the final and throughout the Champions League season. The final, played at the Atatürk Olympic Stadium in Istanbul, Turkey, is often regarded as one of the best in the history of the tournament. 
+</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/liverpool/win2.jpg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>The 2005 UEFA Super Cup was an association football match between Liverpool of England and CSKA Moscow of Russia on 26 August 2005 at Stade Louis II, Monaco, the annual UEFA Super Cup contested between the winners of the UEFA Champions League and UEFA Cup. Liverpool were appearing in the Super Cup for the fifth time, having won the competition in 1977 and 2001. CSKA Moscow were appearing in the Super Cup for the first time, the first Russian team to appear in the competition. Liverpool held out until the end of extra-time to win the match 3–1, their third Super Cup win.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/liverpool/win3.jpg" alt="Турнир3" style="height:200px" width="100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>The 2012 Football League Cup Final was a football match between Cardiff City and Liverpool on 26 February 2012 at Wembley Stadium, London. It was the final match of the 2011–12 Football League Cup, the 52nd season of the Football League Cup, a football competition for the 92 teams in the Premier League and the Football League. Cardiff were appearing in their first final, while Liverpool were appearing in the final for the eleventh time; they had previously won seven and lost three finals. In final Liverpool won the Cardiff with a score 2:2 in regular time and 3:2 by penalty.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Arsenal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/arsenal/team.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/arsenal/coach.png" alt="Captain" style="width:150px;height: 190.9px" class="w3-circle w3-hover-opacity">
+    <h3>Unai Emery</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/cech.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Petr Cech</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/arsenal/leno.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Bernd Leno</h3>
+    <p>Goalkeeper</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/martinez.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Emiliano Martínez</h3>
+    <p>Goalkeeper</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/bellerin.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Héctor Bellerín</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/koscienly.png" alt="Player" style="width:150px;" class="w3-circle w3-hover-opacity">
+    <h3>Laurent Koscielny</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/holding.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Rob Holding</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/monreal.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Nacho Monreal</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/mustafi.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Shkodran Mustafi</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/kolasinac.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sead Kolasinac</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/lichtsteiner.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Stephan Lichtsteiner</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/jenkinson.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Carl Jenkinson</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/sokratis.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Sokratis</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/elneny.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Mohamed Elneny</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/arsenal/mkhitaryan.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Henrikh Mkhitaryan</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/arsenal/ramsey.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Aaron Ramsey</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/ozil.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Mesut Özil</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/iwobi.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Alex Iwobi</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/niles.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Ainsley Maitland-Niles</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/xhaka.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Granit Xhaka</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/torreira.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Lucas Torreira</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/guendouzi.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Mattéo Guendouzi</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/lacazette.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Alexandre Lacazette</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/aubameyang.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Pierre-Emerick Aubameyang</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/arsenal/welbeck.png" alt="Player" style="width:150px" class="w3-circle w3-hover-opacity">
+    <h3>Danny Welbeck</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Arsenal Football Club is an English professional football club from North London, playing in the Premier League. Founded in 1886. The club became the champion of England 13 times, won the England Cup 13 times. The club's home stadium is Emirates, which seats 59,867 spectators. Arsenal spent most of its history in the top division of English football, and in 1992 became one of the founding clubs of the English Premier League. The club also holds the record for the number of seasons in a row spent in the top division of the championship of England, starting in 1919.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/arsenal/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>The 2003/2004 Premier League is the twelfth draw of this tournament. It was held from August 16, 2003 to May 15, 2004. The most remarkable is that one team managed to avoid defeats in all matches of the championship. Arsenal became the first (and so far the only) team to achieve this in the Premier League, and the second in the history of the top divisions of the English Championship. At the end of the season, Arsenal received a special gold version of the Premier League Cup.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/arsenal/win2.jpg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>The 2017 FA Cup Final became the 136th finals of the oldest soccer cup tournament in the world, the FA Cup. The match took place on May 27, 2017 at Wembley Stadium in London. They met Chelsea and Arsenal. In final Arsenal won the Chelsea with a score 2:1;</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/arsenal/win3.jpeg" alt="Турнир3" style="height:200px" width="100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>England Super Cup 2017 - 95th draw of the Super Cup of England, the annual football match, which met the champion of the Premier League season 2016/17 Chelsea and winner of the England Cup season 2016/17 Arsenal. The match took place on August 6, 2017 at Wembley Stadium in London. Arsenal won the match in a penalty shootout with a score of 4: 1 after the end of regular time with a score of 1: 1. It was the first penalty shootout in England, which was punched out using the ABBA experimental scheme.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

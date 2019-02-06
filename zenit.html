@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>FC Zenit Saint Petersburg</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COUSE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NEWS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/zenit/team.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>OUR TEAM</h2>
+  <p>Сomposition:</p>
+  
+  <div class="w3-row"><br>
+  <div class="w3-quarter">
+    <img src="Team/zenit/coach.png" alt="Captain" style="width:120px;height: 120px;" class="w3-circle w3-hover-opacity">
+    <h3>Sergey Semak</h3>
+    <p><a href="#">Coach</a></p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/кержаков.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Mikhail Kerzhakov</h3>
+    <p>Goalkeeper</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/zenit/лодынгин.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Yuri Lodygin</h3>
+    <p>Goalkeeper</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/лунев.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Andrey Lunev</h3>
+    <p>Goalkeeper</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/иванович.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Branislav Ivanovic</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/набиуллин.jpg" alt="Player" style="width:120px;" class="w3-circle w3-hover-opacity">
+    <h3>Elmir Nabiullin</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/мевля.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Miha Mevlja</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/мамана.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Emanuel Mammana</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/чернов.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Shkodran Mustafi</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/смольников.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Igor Smolnikov</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/нету.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Luís Neto</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/терентьев.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Denis Terentjev</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/анюков.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Aleksandr Anyukov</h3>
+    <p>Defender</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/кузяев.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Daler Kuzyaev</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/нобоа.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Christian Noboa</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/жирков.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Yuri Zhirkov</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/оздоев.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Magomed Ozdoev</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/zenit/ерохин.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Aleksandr Erokhin</h3>
+    <p>Midfielder</p>
+  </div>
+  
+  <div class="w3-quarter">
+    <img src="Team/zenit/шатов.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Oleg Shatov</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/маркизио.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Claudio Marchisio</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/мак.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Robert Mak</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/эрнани.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Hernani</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/паредес.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Leandro Paredes</h3>
+    <p>Midfielder</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/дриуси.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Sebastián Driussi</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/заболотний.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Anton Zabolotny</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/кокорин.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Aleksandr Kokorin</h3>
+    <p>Forward</p>
+  </div>
+
+  <div class="w3-quarter">
+    <img src="Team/zenit/дзюба.jpg" alt="Player" style="width:120px" class="w3-circle w3-hover-opacity">
+    <h3>Artem Dzyuba</h3>
+    <p>Forward</p>
+  </div>
+  </div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Football Club Zenit , also known as Zenit Saint Petersburg or simply Zenit, is a Russian football club from the city of Saint Petersburg. Founded in 1925, the club plays in the Russian Premier League. Zenit were the 2007, 2010, 2011–12 and 2014–15 champions of the Russian Premier League and the winners of both the 2007–08 UEFA Cup and the 2008 UEFA Super Cup. The club is owned and sponsored by a Russian state-owned energy giant Gazprom. </p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/zenit/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>UEFA Cup 2007/08 - The 37th Cup. The final match took place on May 14, 2008 at the City of Manchester stadium in Manchester between the Zenit and Rangers teams and ended with a Zenit victory with a score of 2:0.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/zenit/win2.jpg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>The XXIII Russian Football Championship among Premier League clubs was held in 2014–2015. The third season, which was organized according to the “autumn-spring” system. The champion title was defended by Moscow CSKA, Zenit became the champion for 2 rounds to the end. The championship began on August 1, 2014 with the Rubin-Spartak match, and ended on May 30, 2015.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/zenit/win3.jpg" alt="Турнир3" style="height:200px" width="100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>The 2008 UEFA Super Cup game took place on Friday, August 29, 2008 at the Louis II Stadium in Monaco. The match met the winner of the Champions League 2008 Manchester United and the winner of the UEFA Cup 2008 Zenit. In final Zenit won the Manchester United with a score 2:1.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
